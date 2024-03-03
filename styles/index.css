@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+
+.header{
+    position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: transparent;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.nav-header {
+    display: flex;
+    align-self: center;
+    flex: 2;
+    justify-content: stretch;
+  }
+
+  nav {
+    display: block;
+  }
+  
+  nav ul {
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100px;
+    max-width: 1500px;
+    width: 100%;
+    background-color: transparent;
+  }
+  nav ul li {
+    opacity: 100%;
+  }
+  
+  nav ul li:hover {
+    opacity: 70%;
+  }
+  
+  nav ul li a {
+    flex-grow: 1;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 3px 5px transparent;
+    padding: 20px;
+  }
