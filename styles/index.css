@@ -5,6 +5,10 @@
   background-color: grey;
 }
 
+body{
+    background-image: url(/images/bddgarden.jpg);
+}
+
 .header{
     position: fixed;
   display: flex;
@@ -22,6 +26,7 @@
     justify-content: stretch;
   }
 
+  
   nav {
     display: block;
   }
@@ -54,4 +59,16 @@
     color: white;
     box-shadow: 3px 3px 5px transparent;
     padding: 20px;
+  }
+
+  .hero-section-image {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
   }
