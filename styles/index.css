@@ -12,7 +12,7 @@ section {
 }
 
 .dim-layer {
-  background-color: rgba(0, 0, 0, 0.295);
+  background-color: rgba(0, 0, 0, 0.455);
   height: 100vh;
 }
 
@@ -220,15 +220,15 @@ nav ul li a {
 .section-3 {
   height: 50vh;
   width: 100%;
-  background-color: #0078be;
-  /* background: url(/images/slide2.jpg); */
+  background-color: #0078be1d;
+  background: url(/images/slide2.jpg); 
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 
 .section-4 {
   height: 80vh;
-  background-color: rgba(128, 128, 128, 0.105);
+  background-color: rgba(255, 255, 255, 0.879);
 }
 .section-5 {
   height: 70vh;
@@ -246,7 +246,9 @@ nav ul li a {
 }
 
 .community-word{
+  display: flex;
   
+  align-items: center;
 }
 
 footer {
